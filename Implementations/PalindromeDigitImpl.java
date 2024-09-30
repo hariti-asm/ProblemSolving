@@ -13,6 +13,7 @@ public class PalindromeDigitImpl implements PalindromeDigit {
 
         reverse = reverse * 10 + number % 10;
         return reverse(number / 10, reverse);    }
+
     @Override
     public boolean isPalindrome(Integer number) {
         return number.equals(reverse(number, 0));
