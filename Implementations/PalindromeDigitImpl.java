@@ -16,7 +16,7 @@ public class PalindromeDigitImpl implements PalindromeDigit {
 
     @Override
     public boolean isPalindrome(Integer number) {
-        return number.equals(reverse(number, 0));
+        return number.equals(reverse2(number, 0));
     }
 
 
@@ -29,5 +29,14 @@ public class PalindromeDigitImpl implements PalindromeDigit {
         return number;
     }
 
+    public Integer reverse2(Integer number , Integer reverse) {
+        while (number > 0) {
+
+            reverse = reverse * 10 + number % 10;
+            number = number / 10;
+        }
+        return reverse ;
+
+    }
 
 }
