@@ -1,4 +1,4 @@
-package hariti.asmaa.problesolving;
+package hariti.asmaa.problesolving.repositories;
 
 public interface PalindromeDigit {
     Integer reverse(Integer number , Integer reverse);

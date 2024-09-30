@@ -1,6 +1,6 @@
 package hariti.asmaa.problesolving.Implementations;
 
-import hariti.asmaa.problesolving.PalindromeDigit;
+import hariti.asmaa.problesolving.repositories.PalindromeDigit;
 
 public class PalindromeDigitImpl implements PalindromeDigit {
 
